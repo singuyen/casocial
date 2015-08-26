@@ -1,6 +1,6 @@
 # jQuery caSocial
 
-> This is a jQuery library generate the social icons then make a callback</a>
+> This is a jQuery library generates the social icons with the shares/counts then make a callback to style them to get the custom look.</a>
 
 ## Getting started
 
