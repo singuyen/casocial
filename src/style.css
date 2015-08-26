@@ -75,14 +75,15 @@
 	width: 100%;
 	float: left;
 	background: rgba(255,255,255,.1);
-	padding: 5px 0;
+	padding: 7px 0;
 	color: #FFF;
 	font-family: 'Arial',sans-serif;
 	font-size: .8em;
 	display: none;
+	height: 10px;
 }
 
 .social-btn .call {
 	display: block;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }

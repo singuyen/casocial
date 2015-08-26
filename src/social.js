@@ -40,22 +40,22 @@ $.fn.caSocial = function(settings,callback) {
 	<div class="fb social-btn">\
 		<a href="' + fbhref + '">\
 			<div class="button-icon"><i class="icon-facebook"></i></div>\
-			<span class="shared"></span>\
-			<span class="call">Share</span>\
+			<div class="shared"></div>\
+			<div class="call">Share</div>\
 		</a>\
 	</div>\
 	<div class="tw social-btn">\
 		<a href="' + twhref + '">\
 			<div class="button-icon"><i class="icon-twitter"></i></div>\
-			<span class="shared"></span>\
-			<span class="call">Share</span>\
+			<div class="shared"></div>\
+			<div class="call">Share</div>\
 		</a>\
 	</div>\
 	<div class="gp social-btn">\
 		<a href="' + gphref + '">\
 			<div class="button-icon"><i class="icon-google-plus"></i></div>\
-			<span class="shared"></span>\
-			<span class="call">Share</span>\
+			<div class="shared"></div>\
+			<div class="call">Share</div>\
 		</a>\
 	</div>';
 
@@ -63,8 +63,8 @@ $.fn.caSocial = function(settings,callback) {
 		template += '<div class="yt social-btn">\
 		<a href="http://www.youtube.com/user/CarAdvice?sub_confirmation=1">\
 		<div class="button-icon"><i class="icon-youtube-play"></i></div>\
-		<span class="shared">0</span>\
-		<span class="call">Subcribe</span>\
+		<div class="shared">0</div>\
+		<div class="call">Subscribe</div>\
 		</a>\
 		</div>';
 	}	
@@ -73,8 +73,8 @@ $.fn.caSocial = function(settings,callback) {
 		template += '<div class="email social-btn">\
 		<a href="' + mailhref + '">\
 		<div class="button-icon"><i class="icon-envelope"></i></div>\
-		<span class="shared">0</span>\
-		<span class="call">Share</span>\
+		<div class="shared">0</div>\
+		<div class="call">Share</div>\
 		</a>\
 		</div>';	
 	}
