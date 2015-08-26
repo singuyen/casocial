@@ -6,7 +6,8 @@
 #ca-social .total-shares {
 	font-family: 'Arial', sans-serif;
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 0.7em;
+	margin: 10px 0;
 }
 
 #ca-social .total-shares .shares {
@@ -23,15 +24,19 @@
 	display: table;
 	cursor: pointer;
 	margin-bottom: 2px;
-	/*
-	-webkit-box-shadow: 0px 0px 8px 2px rgba(255, 255, 255, .75);
-	-moz-box-shadow: 0px 0px 8px 2px rgba(255, 255, 255, .75);
-	box-shadow: 0px 0px 8px 2px rgba(255, 255, 255, .75);	*/
 }
 
 .social-btn:hover {
 	opacity: 0.8;
 	-webkit-transition: all 0.2s linear;
+}
+
+.social-btn:hover .shared {
+	display: none !important;
+}
+
+.social-btn:hover .call {
+	display: block !important;
 }
 
 .fb, .fb .button-icon {
@@ -66,7 +71,7 @@
 	font-size: 1.2em;
 }
 
-.social-btn .shared {
+.social-btn .shared, .social-btn .call {
 	width: 100%;
 	float: left;
 	background: rgba(255,255,255,.1);
@@ -74,4 +79,10 @@
 	color: #FFF;
 	font-family: 'Arial',sans-serif;
 	font-size: .8em;
+	display: none;
+}
+
+.social-btn .call {
+	display: block;
+	font-size: 0.8em;
 }

@@ -12,9 +12,19 @@
 <body>
 <div id="ca-social"></div>
 <script src="../src/social.js"></script>
+<script src="https://apis.google.com/js/platform.js"></script>
+<script>
 
+//How to use
+$('#ca-social').caSocial({
+	"allowYoutube":true,
+	"allowEmail":true,
+	"website":"YourCompany.com",
+},function(){
+	$('#ca-social').show();
+});	
 
-
+</script>
 </body>
 </html>
 
