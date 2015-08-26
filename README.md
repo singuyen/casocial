@@ -4,7 +4,7 @@
 
 ## Getting started
 
-Call the dependencies `jQuery`, `Font Awesome`, `Style`, `social.js`
+Call the dependencies `jQuery`, `Font Awesome`, `Style`, `social.js` in ```<head>```
 
 ```html
 	
