@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/singuyen/casocial/issues"
   },
+  "files": [
+    "src/style.css"
+  ],
   "homepage": "https://github.com/singuyen/casocial#readme"
 }
