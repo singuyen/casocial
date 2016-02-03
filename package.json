@@ -1,0 +1,22 @@
+{
+  "name": "casocial",
+  "version": "1.0.0",
+  "description": "A Social buttons",
+  "main": "src/social.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singuyen/casocial.git"
+  },
+  "keywords": [
+    "casocial"
+  ],
+  "author": "Si Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singuyen/casocial/issues"
+  },
+  "homepage": "https://github.com/singuyen/casocial#readme"
+}

@@ -16,7 +16,8 @@ $.fn.caSocial = function(settings,callback) {
 	//var title = $('title').text();
 
 	//Temporary sample - Please remove it on the live site
-	var url = 'http://mashable.com/2015/08/25/bring-it-on-anniversary-cheerleaders/';
+	//var url = 'http://mashable.com/2015/08/25/bring-it-on-anniversary-cheerleaders/';
+	var url = 'http://www.caradvice.com.au/397733/the-problem-with-hydrogen-fuel-cell-cars/';
 	var title = 'This is sample title';
 	//Temporary sample - Please remove it on the live site
 
